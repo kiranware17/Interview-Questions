@@ -1,0 +1,56 @@
+Date:08/09/2020
+Aked  to whom: Kiran Ware
+Company Name : GS Lab (Great Software Lab)
+Interview Questions: GS Lab:
+    1)what is design pattern ? what are the types of design patterns and explain each in brief?
+       2)What is singleton and write a code of snippet of that.
+      3) write a code for singleton for ear initialize.
+      4) 
+     Public class MySingleton {
+       Private static MySingleton mysingleton=new MySingleton();
+Private MySingleton(){
+}
+}
+Wil above work? No
+5)
+Public class MySingleton {
+       public static MySingleton mysingleton=new MySingleton();
+Private MySingleton()throws IOException{
+Throw new IOException();
+}
+}
+Will the above work?
+Ans:-No
+6) would you make the appropriate chages so that it work?
+Public class MySingleton {
+       public static MySingleton mysingleton=null;
+static{
+mysingleton=new MySingleton();
+}
+Private MySingleton()throws IOException{
+Throw new IOException();
+}
+}
+Ans: now it will work
+7) What is collection in java?
+8) when to use ArrayList and when to use LinkedList?
+9)Suppose I have to get  area name and tis respective  area code then which collection you will use?AnsMap ie HashMap .
+10)what is the difference between deadlock and race condition?
+11) how we can resolve deadlock?
+12)what are the features of spring mvc?
+13) when to use prototype scope and tell me scenario for that at what condition we should go for prototype scope?
+
+14) what is filters and what is interceptors?
+15) what is application.properties  file? Have you are using classic approach or yamal approach?
+16) How you are using properties file in spring application?
+17) What is difference between clone and checkout?
+18) what is difference between pull and fetch?
+
+
+
+
+
+
+
+
+
